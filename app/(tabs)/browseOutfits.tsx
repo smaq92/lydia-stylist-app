@@ -1,15 +1,13 @@
-import { Link } from "expo-router";
 import { StyleSheet, Text, View } from "react-native";
 
-export default function Index() {
+export default function WardrobeScreen() {
   return (
     <View
       style={styles.container}
     >
       <Text 
       style={styles.text}
-      >Lydia</Text>
-      <Link href="/wardrobe" style={styles.button}>Go to Wardrobe Screen</Link>
+      >Your Outfits</Text>
     </View>
   );
 }
@@ -18,18 +16,11 @@ export default function Index() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff2f8",
+    backgroundColor: "#FFF2F8",
     alignItems: "center",
     justifyContent: "center",
   },
   text:{
     color: "#222020"
-  },
-  button:{
-    fontSize: 20,
-    backgroundColor: "#627F23",
-    color: "#fff2f8",
-    paddingVertical: 12,
-    paddingHorizontal: 20,
   }
 })

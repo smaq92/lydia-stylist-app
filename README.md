@@ -1,53 +1,29 @@
-# Welcome to your Expo app 👋
+# Lydia: Pocket Stylist on the Go
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**Lydia** is a personal stylist app that helps users get outfit suggestions based on their body type. No more online shopping disappointment or mall miracle light illusion.  
 
-## Get started
+This app is currently under development as part of my personal journey to learn and build with **React Native** and **Supabase**. I'm building in public, I'm gonna be documenting my process, sharing progress, and pushing through the chaos.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## Tech Stack
 
-2. Start the app
+- ⚛️ [React Native](https://reactnative.dev/) (via [Expo](https://expo.dev/))
+- 🧩 [Supabase](https://supabase.com) — open-source Firebase alternative for backend and user data
+- 🎨 Figma — for prototyping and user flows
 
-   ```bash
-   npx expo start
-   ```
 
-In the output, you'll find options to open the app in a
+## Current Features (in progress)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- [x] Expo project setup
+- [x] GitHub version control
+- [x] Figma prototype completed (still needs iteration based from another user feedback)
+- [ ] Welcome screen
+- [ ] Body type selection
+- [ ] Outfit recommendation logic
+- [ ] Supabase integration for saving user data
+- [ ] Polished UI with animations
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-=======
-# lydia-stylist-app
->>>>>>> 56a6cefd909c92b269804313b62c944827788529
+NOTE: I did get the base setup from expo using their starter files
